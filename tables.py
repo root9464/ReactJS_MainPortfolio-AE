@@ -40,3 +40,4 @@ class Cart(Base):
     
     item_id = Column(Integer, primary_key=True)
     amount = Column(Integer)
+    
